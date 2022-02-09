@@ -1,0 +1,21 @@
+Encryption is a presentation-layer service providing confidentiality and integrity 
+assurances. While access control mechanisms protect assets at rest (currently on 
+the system), they cannot protect assets in transit. Encryption offsets this as well 
+as providing protection for assets at rest when they are removed from the control 
+of a system (such as when a file is on a removable media).
+An early example of an encryption algorithm can be found in the Old Testament. 
+During the period immediately following the end of the Jewish exile, it was 
+politically dangerous to make derogatory references to Babylon. Writers of the 
+book of Jeremiah side-stepped this issue by encrypting the word Babylon with a 
+simple substitution cipher. There are two instances of this ciphertext:
+And all the kings of the north, far and near, one with another, and all the kingdoms 
+of the world, which are upon the face of the earth: and the king of Sheshach shall 
+drink after them.
+(Jeremiah, 25:26)
+The same word appears in Jeremiah 51:41. “Sheshach,” in Hebrew, decrypts to 
+“Babylon.” After the fall of Babylon, the word would not need to be encrypted.
+Encryption algorithms allow a user to protect an asset even when an 
+unauthorized individual possesses a copy of it. When considering the message 
+transmission problem, it is instructive to consider the roles of Alice (from whom 
+a message originates), Bob (the intended recipient), and Eve (an interceptor or 
+eavesdropper).
