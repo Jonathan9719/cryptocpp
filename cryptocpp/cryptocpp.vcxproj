@@ -146,7 +146,18 @@
     <ClCompile Include="cryptocpp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\bible.txt" />
+    <Text Include="Small.txt" />
     <Text Include="test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\camellia.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\chacha.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\cham.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\rabbit.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\rc6.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\simeck.h" />
+    <ClInclude Include="..\..\..\..\..\..\cryptopp\threefish.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
