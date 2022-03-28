@@ -11,10 +11,7 @@
 #include <fstream>          // Read a file
 #include <iostream>         
 #include <string>
-#include "camellia.h"
-#include "cham.h"
-#include "threefish.h"
-#include "simeck.h"
+#include "camellia.h"       // The different encryption algorithms
 #include "chacha.h"
 #include "secblock.h"
 #include "rabbit.h"
